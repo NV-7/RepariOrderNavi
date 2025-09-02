@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Repair_Header">Repair Order</string>
+    <string name="Order_Header">Order</string>
+    <string name="Inspection_Header">Inspection</string>
+    <string name="Technitian_Header">Technitian</string>
+    <string name="Paint_Header">Paint</string>
+    <string name="Part_Header">Part</string>
+    <string name="Labor_Header">Labor</string>
+</resources>

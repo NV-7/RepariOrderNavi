@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">RepariOrderNavi</string>
+    <string name="string_repair_header">string/Repair_Header</string>
 </resources>
