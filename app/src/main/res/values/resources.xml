@@ -6,5 +6,9 @@
     <string name="Technitian_Header">Technitian</string>
     <string name="Paint_Header">Paint</string>
     <string name="Part_Header">Part</string>
+    <string name="Subtotal_Header">Subtotal</string>
+    <string name="Tax_Header">Tax</string>
+    <string name="Total_Header">Total</string>
     <string name="Labor_Header">Labor</string>
+
 </resources>

@@ -167,7 +167,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
-        android:text="TextView"
+        android:text="@string/Subtotal_Header"
         app:layout_constraintStart_toStartOf="@+id/laborInput"
         app:layout_constraintTop_toBottomOf="@+id/laborInput" />
 
@@ -176,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:text="TextView"
+        android:text="@string/Tax_Header"
         app:layout_constraintStart_toStartOf="@+id/subtotalHeader"
         app:layout_constraintTop_toBottomOf="@+id/subtotalHeader" />
 
@@ -185,7 +185,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
-        android:text="TextView"
+        android:text="@string/Total_Header"
         app:layout_constraintStart_toStartOf="@+id/subtotalHeader"
         app:layout_constraintTop_toBottomOf="@+id/subtotalHeader" />
 
