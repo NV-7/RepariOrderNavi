@@ -8,7 +8,7 @@
     tools:context=".RepairOrderActivity">
 
     <EditText
-        android:id="@+id/editTextText13"
+        android:id="@+id/orderInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="4dp"
@@ -16,11 +16,11 @@
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView2" />
+        app:layout_constraintStart_toEndOf="@+id/orderHeader"
+        app:layout_constraintTop_toTopOf="@+id/orderHeader" />
 
     <TextView
-        android:id="@+id/textView16"
+        android:id="@+id/technitianHeader"
         android:layout_width="141dp"
         android:layout_height="0dp"
         android:layout_marginTop="29dp"
@@ -28,66 +28,66 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/orderHeader"
+        app:layout_constraintTop_toBottomOf="@+id/orderHeader" />
 
     <EditText
-        android:id="@+id/editTextText11"
+        android:id="@+id/laborInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView20" />
+        app:layout_constraintStart_toEndOf="@+id/orderHeader"
+        app:layout_constraintTop_toTopOf="@+id/laborHeader" />
 
     <EditText
-        android:id="@+id/editTextText12"
+        android:id="@+id/technititanInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView16" />
+        app:layout_constraintStart_toEndOf="@+id/orderHeader"
+        app:layout_constraintTop_toTopOf="@+id/technitianHeader" />
 
     <EditText
-        android:id="@+id/editTextText9"
+        android:id="@+id/partInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView19" />
+        app:layout_constraintStart_toEndOf="@+id/orderHeader"
+        app:layout_constraintTop_toTopOf="@+id/partHeader" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/paintInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView18" />
+        app:layout_constraintStart_toEndOf="@+id/orderHeader"
+        app:layout_constraintTop_toTopOf="@+id/paintHeader" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/inspectioninput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
-        app:layout_constraintTop_toTopOf="@+id/textView15" />
+        app:layout_constraintStart_toEndOf="@+id/orderHeader"
+        app:layout_constraintTop_toTopOf="@+id/inspectionHeader" />
 
     <TextView
-        android:id="@+id/textView15"
+        android:id="@+id/inspectionHeader"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="89dp"
@@ -95,11 +95,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/orderHeader"
+        app:layout_constraintTop_toBottomOf="@+id/orderHeader" />
 
     <TextView
-        android:id="@+id/textView18"
+        android:id="@+id/paintHeader"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="148dp"
@@ -107,11 +107,11 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/orderHeader"
+        app:layout_constraintTop_toBottomOf="@+id/orderHeader" />
 
     <TextView
-        android:id="@+id/textView19"
+        android:id="@+id/partHeader"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="212dp"
@@ -119,27 +119,27 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/orderHeader"
+        app:layout_constraintTop_toBottomOf="@+id/orderHeader" />
 
     <TextView
-        android:id="@+id/textView20"
+        android:id="@+id/laborHeader"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginTop="272dp"
         android:text="@string/Labor_Header"
+        android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
-        app:layout_constraintStart_toStartOf="@+id/textView2"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintStart_toStartOf="@+id/orderHeader"
+        app:layout_constraintTop_toBottomOf="@+id/orderHeader" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/repairHeader"
         android:layout_width="483dp"
         android:layout_height="0dp"
         android:layout_marginTop="100dp"
-        android:text= "@string/Repair_Header"
+        android:text="@string/Repair_Header"
         android:textAlignment="center"
         android:textColor="#100808"
         android:textSize="48sp"
@@ -150,7 +150,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/orderHeader"
         android:layout_width="141dp"
         android:layout_height="39dp"
         android:layout_marginStart="56dp"
@@ -159,62 +159,62 @@
         android:textColor="@color/black"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintStart_toStartOf="@+id/repairHeader"
+        app:layout_constraintTop_toBottomOf="@+id/repairHeader" />
 
     <TextView
-        android:id="@+id/textView6"
+        android:id="@+id/subtotalHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/editTextText11"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText11" />
+        app:layout_constraintStart_toStartOf="@+id/laborInput"
+        app:layout_constraintTop_toBottomOf="@+id/laborInput" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/taxHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintStart_toStartOf="@+id/subtotalHeader"
+        app:layout_constraintTop_toBottomOf="@+id/subtotalHeader" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/totalHeader"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/textView6"
-        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+        app:layout_constraintStart_toStartOf="@+id/subtotalHeader"
+        app:layout_constraintTop_toBottomOf="@+id/subtotalHeader" />
 
     <TextView
-        android:id="@+id/textView12"
+        android:id="@+id/subtotalInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="100dp"
         android:layout_marginTop="36dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/editTextText11"
-        app:layout_constraintTop_toBottomOf="@+id/editTextText11" />
+        app:layout_constraintStart_toStartOf="@+id/laborInput"
+        app:layout_constraintTop_toBottomOf="@+id/laborInput" />
 
     <TextView
-        android:id="@+id/textView13"
+        android:id="@+id/taxinput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/textView12"
-        app:layout_constraintTop_toBottomOf="@+id/textView12" />
+        app:layout_constraintStart_toStartOf="@+id/subtotalInput"
+        app:layout_constraintTop_toBottomOf="@+id/subtotalInput" />
 
     <TextView
-        android:id="@+id/textView14"
+        android:id="@+id/totalInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
         android:text="TextView"
-        app:layout_constraintStart_toStartOf="@+id/textView13"
-        app:layout_constraintTop_toBottomOf="@+id/textView13" />
+        app:layout_constraintStart_toStartOf="@+id/taxinput"
+        app:layout_constraintTop_toBottomOf="@+id/taxinput" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
