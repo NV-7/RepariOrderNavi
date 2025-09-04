@@ -238,7 +238,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="50dp"
         android:text="@string/Submit_Button"
-        android:onClick="submit"
         app:layout_constraintStart_toStartOf="@+id/laborHeader"
         app:layout_constraintTop_toBottomOf="@+id/laborHeader" />
 
