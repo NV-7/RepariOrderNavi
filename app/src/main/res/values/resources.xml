@@ -10,5 +10,6 @@
     <string name="Tax_Header">Tax</string>
     <string name="Total_Header">Total</string>
     <string name="Labor_Header">Labor</string>
+    <string name="Submit_Button">Submit</string>
 
 </resources>
