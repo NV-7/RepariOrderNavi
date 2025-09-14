@@ -11,5 +11,6 @@
     <string name="Total_Header">Total</string>
     <string name="Labor_Header">Labor</string>
     <string name="Submit_Button">Submit</string>
+    <string name="Spinner_text">Select Order Type</string>
 
 </resources>
