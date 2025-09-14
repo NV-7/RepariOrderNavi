@@ -12,6 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.RepariOrderNavi">
         <activity
+            android:name=".WinActivity"
+            android:exported="false" />
+        <activity
             android:name=".RepairOrderActivity"
             android:exported="true">
             <intent-filter>
